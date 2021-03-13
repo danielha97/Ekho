@@ -1,0 +1,344 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: relative;
+}
+
+header .header-container {
+  position: absolute;
+}
+
+header h1 {
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  color: white;
+  font-size: 180px;
+}
+
+.container {
+  background-image: url(/Img/hero-background.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.container .slogan-one {
+  padding-top: 25%;
+  padding-left: 18%;
+  font-size: 75px;
+  font-family: "Advent Pro", sans-serif;
+  font-weight: 400;
+  color: #c1e4de;
+  text-transform: uppercase;
+}
+
+.container .slogan-two {
+  padding-left: 65%;
+  padding-top: 70px;
+}
+
+.container .slogan-two ul {
+  font-family: "Advent Pro", sans-serif;
+  color: #e29698;
+  font-weight: bold;
+}
+
+.container .slogan-two ul li {
+  list-style: none;
+  font-size: 60px;
+  margin-top: 15px;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-container .logo {
+  margin: 50px 100px 0px 100px;
+}
+
+.header-container .menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 80px 50px 0px 800px;
+}
+
+.header-container .menu ul li {
+  list-style: none;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 30px;
+  margin: 28px;
+  color: #e29698;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.header-container .menu ul li a {
+  color: #e29698;
+  text-decoration: none;
+}
+
+.header-container .menu ul li a:hover {
+  background-color: #b35154;
+  color: white;
+  border-radius: 5px;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.show-menu {
+  position: fixed;
+  padding-left: 580px;
+  width: 100%;
+  background-color: #ffffffcc;
+  color: #c1e4de;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  z-index: 10;
+}
+
+.product-container {
+  height: 156vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(#e29698), to(#c1e4de));
+  background-image: linear-gradient(to right, #e29698, #c1e4de);
+}
+
+.product-container .product-box {
+  background-color: #c1e4de;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-container .product-box .product-image {
+  margin: 0px auto;
+}
+
+.product-container .product-box .product-image :first-child {
+  width: 1225px;
+}
+
+.product-container .product-box .product-image :last-child {
+  width: 458px;
+}
+
+.product-container .slider-container {
+  width: 1685px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.product-container .slider-container .slide {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.product-container .slider-container .slide img {
+  height: 100%;
+}
+
+.product-container .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product-container .button-container button {
+  background: none;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  margin: auto;
+}
+
+.product-container .button-container button img {
+  width: 80px;
+}
+
+.product-container .button-container button img:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.spec-container {
+  height: 100vh;
+  background-image: url(/Img/pexels-moose-photos-1037999.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.spec-container .spec-house {
+  padding: 30px 0px 0px 50px;
+}
+
+.spec-container .spec-house .spec-room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.spec-container .spec-house .spec-room h3 {
+  font-family: "Advent Pro", sans-serif;
+  color: white;
+  font-weight: 100;
+}
+
+.spec-container .spec-house .spec-room .spec-closet .spec-title {
+  font-family: "Jura", sans-serif;
+  color: white;
+  font-size: 60px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.spec-container .spec-house img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  border-radius: 50%;
+  margin-top: 50px;
+  -webkit-box-shadow: #b35154 5px 5px 2px;
+          box-shadow: #b35154 5px 5px 2px;
+}
+
+.spec-container .coming-soon {
+  margin: 22% 0 0 33%;
+  font-family: "Kaushan Script", cursive;
+  color: #b35154;
+  font-size: 90px;
+}
+
+.question-container {
+  background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(#c1e4de), to(#e29698));
+  background-image: linear-gradient(to right, white, #c1e4de, #e29698);
+  height: auto;
+  padding: 100px 25px;
+}
+
+.question-container .question-title {
+  color: #9c3b3b;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.question-container .question-box {
+  width: 75%;
+  height: 100%;
+  border-radius: 5px;
+  margin: auto;
+  border: #c1e4de solid 5px;
+  background-color: #e29698;
+  -webkit-box-shadow: #b35154 4px 4px 2px;
+          box-shadow: #b35154 4px 4px 2px;
+  padding: 15px;
+}
+
+.question-container .question-box .question {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #b35154;
+  width: 80%;
+  position: relative;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: #420808cc 3px 3px 1px;
+          box-shadow: #420808cc 3px 3px 1px;
+}
+
+.question-container .question-box .question .question-line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.question-container .question-box .question .question-line h3 {
+  color: #c1e4de;
+  font-family: "Advent Pro", sans-serif;
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.question-container .question-box .question .question-line button {
+  width: 45px;
+  height: 45px;
+  margin-left: 50px;
+  background-color: transparent;
+  border: transparent;
+  outline: transparent;
+  cursor: pointer;
+}
+
+.question-container .question-box .question .question-line button img {
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+}
+
+.question-container .question-box .question .question-line button img:hover {
+  background-color: #9c3b3b;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.question-container .question-box .question .answer {
+  padding: 8px;
+  border-top: #c1e4de solid 2px;
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: "Advent Pro", sans-serif;
+  color: white;
+  font-weight: 400;
+}
+
+.answer {
+  display: none;
+}
+
+.show .answer {
+  display: inline-block;
+}
+
+.minus-btn {
+  display: none;
+}
+
+.show .minus-btn {
+  display: inline;
+}
+
+.show .plus-btn {
+  display: none;
+}
+/*# sourceMappingURL=style.css.map */
