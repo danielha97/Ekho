@@ -97,7 +97,7 @@ header {
 }
 
 .product-container {
-  height: 156vh;
+  height: 160vh;
   background-image: linear-gradient(to right, $buttonColor, $coreColor);
   .product-box {
     background-color: $coreColor;
@@ -149,7 +149,7 @@ header {
 }
 
 .spec-container {
-  height: 100vh;
+  height: 110vh;
   background-image: url(/Img/pexels-moose-photos-1037999.jpg);
   background-size: cover;
   display: flex;
@@ -289,5 +289,133 @@ header {
 .show {
   .plus-btn {
     display: none;
+  }
+}
+@media all and (max-width: 1200px) {
+  .header-container .menu ul {
+    margin: 80px 50px 0px 200px;
+  }
+  .container .slogan-one {
+    padding-left: 10%;
+  }
+  .container .slogan-two {
+    padding-left: 70%;
+  }
+  .product-container .product-box .product-image :first-child {
+    width: 100%;
+  }
+  .product-container .product-box .product-image :last-child {
+    display: none;
+  }
+  .product-container .slider-container {
+    width: 100%;
+  }
+  .spec-house {
+    margin-top: 10%;
+  }
+  .spec-closet {
+    width: 40%;
+  }
+  .spec-container .spec-house .spec-room .spec-closet .spec-title {
+    font-size: 40px;
+  }
+  .spec-container .spec-house img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .spec-container .coming-soon {
+    margin-left: 28%;
+    font-size: 60px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .container {
+    background-position: center;
+  }
+
+  .header-container .logo {
+    margin: 0px;
+  }
+
+  .container .slogan-one {
+    padding-left: 30px;
+    font-size: 60px;
+  }
+
+  .header-container .menu ul {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .product-container .slider-container {
+    display: none;
+  }
+  .product-container .button-container {
+    display: none;
+  }
+  .product-container {
+    height: 45vh;
+  }
+  .spec-container {
+    background-position: center;
+  }
+  .spec-container .coming-soon {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .spec-container .spec-house {
+    width: 30%;
+  }
+  .spec-container .spec-house .spec-room {
+    justify-content: space-between;
+  }
+}
+@media all and (max-width: 480px) {
+  .spec-closet {
+    margin-top: 25px;
+  }
+  .show-menu {
+    padding-left: 380px;
+  }
+  header h1 {
+    font-size: 100px;
+  }
+  .container .slogan-one {
+    padding-left: 0;
+    font-size: 45px;
+  }
+  .spec-container .coming-soon {
+    margin-left: -200px;
+  }
+
+  .header-container .menu ul li {
+    margin: 10px;
+  }
+  .show-menu {
+    padding-left: 50px;
+  }
+
+  .spec-container .spec-house img {
+    display: none;
+  }
+  .container .slogan-two {
+    padding-left: 25%;
+  }
+  .product-container {
+    height: 28vh;
+  }
+  .spec-container .spec-house {
+    margin-left: 25%;
+    margin-top: 30%;
+  }
+  .spec-container .spec-house .spec-room {
+    width: 300px;
+  }
+  .question-container .question-box {
+    width: 100%;
+  }
+  .question-container {
+    padding: 0;
   }
 }
