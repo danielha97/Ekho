@@ -106,7 +106,7 @@ header h1 {
 }
 
 .product-container {
-  height: 160vh;
+  height: 165vh;
   background-image: -webkit-gradient(linear, left top, right top, from(#e29698), to(#c1e4de));
   background-image: linear-gradient(to right, #e29698, #c1e4de);
 }
