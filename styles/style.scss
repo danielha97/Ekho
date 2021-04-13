@@ -199,7 +199,7 @@ header {
 .question-container {
   background-image: linear-gradient(to right, white, $coreColor, $buttonColor);
   height: auto;
-  padding: 100px 25px;
+  padding: 100px 20%;
   .question-title {
     color: #9c3b3b;
     font-family: "Advent Pro", sans-serif;
@@ -214,14 +214,14 @@ header {
     border: #c1e4de solid 5px;
     background-color: $buttonColor;
     box-shadow: #b35154 4px 4px 2px;
-    padding: 15px;
+    padding: 20px;
     .question {
       justify-content: center;
-      background-color: #b35154;
+      background-color: #ca6a6d;
       width: 80%;
       position: relative;
-      margin: 20px auto;
-      padding: 15px;
+      margin: 10px auto;
+      padding: 5px;
       border-radius: 5px;
       box-shadow: #420808cc 3px 3px 1px;
 

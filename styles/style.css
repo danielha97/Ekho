@@ -236,7 +236,7 @@ header h1 {
   background-image: -webkit-gradient(linear, left top, right top, from(white), color-stop(#c1e4de), to(#e29698));
   background-image: linear-gradient(to right, white, #c1e4de, #e29698);
   height: auto;
-  padding: 100px 25px;
+  padding: 100px 20%;
 }
 
 .question-container .question-title {
@@ -255,18 +255,18 @@ header h1 {
   background-color: #e29698;
   -webkit-box-shadow: #b35154 4px 4px 2px;
           box-shadow: #b35154 4px 4px 2px;
-  padding: 15px;
+  padding: 20px;
 }
 
 .question-container .question-box .question {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #b35154;
+  background-color: #ca6a6d;
   width: 80%;
   position: relative;
-  margin: 20px auto;
-  padding: 15px;
+  margin: 10px auto;
+  padding: 5px;
   border-radius: 5px;
   -webkit-box-shadow: #420808cc 3px 3px 1px;
           box-shadow: #420808cc 3px 3px 1px;
